@@ -8,7 +8,8 @@ export default function Card({max, min, name, img, onClose}) {
   function handleonClose(){
     if(typeof onClose === 'function') onClose();
   }
-  return <div className={styles.card}>  
+  return ( 
+      <div className={styles.card}>  
       <button className= {styles.closeButton} onClick={handleonClose}> 
         <IoCloseCircle />
       </button>
@@ -22,6 +23,6 @@ export default function Card({max, min, name, img, onClose}) {
         <span>{max}</span>
       </div>
       <img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt="icono del clima"/>
-  </div>
+  </div> )
 };
 
