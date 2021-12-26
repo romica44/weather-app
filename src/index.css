@@ -1,13 +1,33 @@
+ @import './styles/normalice.css';
+ 
+:root{
+  --color-maximum-red: #4b4a4a;
+  --btn-danger-color: var(--color-maximum-red);
+} 
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif
     sans-serif;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+h1 {
+  background-color: antiquewhite; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+   font-size: xx-large;
+   align-content: center;
+   text-align: center;
+ }
+ p {
+   text-align: center ;
+ }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }

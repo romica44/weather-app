@@ -1,0 +1,27 @@
+.searchBar {
+    position: relative;
+    width: 23rem;
+}
+.searchBar > input {
+    width: 100%;
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0.5rem;
+
+    
+    font-size: 1rem;
+}
+
+.searchBar > input::placeholder {
+    font-weight: 300px;
+    font-size: 1.25rem;
+}
+.searchBar > button {
+    position: absolute;
+    top: calc(0.5rem + 1px);
+    right: calc(0.5rem + 1px);
+}
