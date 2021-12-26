@@ -1,7 +1,5 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
-import {useState} from 'react';
-//import Card from './components/Card.jsx';
 import Cards from './components/Cards.jsx';
 import SearchBar from './components/SearchBar.jsx';
 //import data, { Cairns } from './data.js';
