@@ -26,7 +26,7 @@ function App() {
 
   function onSearch(ciudad){
     fetch( // fetch es una api interna del navegador//se trae los datos que necesitamos de la api
-      `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${API_KEY}&units=metric`)
+      `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${API_KEY}&units=metric`)
     .then(r=> r.json()) //la respuesta que recibe se convierte en una archivo json
     .then((recurso)=> {
       if(recurso.main !==undefined){ //si recibe data...
